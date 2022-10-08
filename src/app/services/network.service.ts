@@ -103,7 +103,6 @@ export class NetworkService {
         this.blockHarvester.resume();
       }
 
-      this.ps.initialize(network, this.vs.currency.value);
       this.rs.initialize(network);
 
       let chainSS58: number | undefined;
